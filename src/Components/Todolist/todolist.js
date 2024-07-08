@@ -20,6 +20,7 @@ class Todolist extends Component {
     x.push(data);
     this.setState({
       items: x,
+      data:"",
     });
   };
 
